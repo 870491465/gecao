@@ -1,0 +1,14 @@
+{
+  "file": "fx_sickle_slash.png",
+  "size": [
+    544,
+    180
+  ],
+  "anchor": [
+    0.5,
+    0.5
+  ],
+  "duration_seconds": 0.12,
+  "blend": "standard alpha initially",
+  "status": "not tested in Cocos"
+}

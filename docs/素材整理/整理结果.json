@@ -1,0 +1,10 @@
+{
+  "basis": "Main.scene 当前四级正式游戏的代码执行分支；不是构建包收录清单",
+  "used_files": 215,
+  "unused_in_main_files": 63,
+  "used_bytes": 29096412,
+  "unused_in_main_bytes": 14764476,
+  "source_package_files": 361,
+  "sha256_verified": true,
+  "source_files_moved_or_deleted": false
+}

@@ -1,0 +1,23 @@
+{
+  "frameSize": [
+    512,
+    768
+  ],
+  "frames": 24,
+  "fps": 20,
+  "duration": 1.2,
+  "loop": true,
+  "singleSprite": true,
+  "wheelChecks": {
+    "left": 20.6951316352086,
+    "right": 20.74935098650052
+  },
+  "cuttingSpan": [
+    138,
+    380
+  ],
+  "rowCenters": [
+    198.5,
+    319.5
+  ]
+}

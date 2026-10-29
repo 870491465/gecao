@@ -1,0 +1,39 @@
+{
+  "frame_size": [
+    512,
+    768
+  ],
+  "frames": 24,
+  "fps": 20,
+  "duration_seconds": 1.2,
+  "scale_is_constant": true,
+  "grip_and_engine_pixels_unchanged": true,
+  "method": "single-source local deformation; not separately redrawn poses",
+  "engine_tested": false,
+  "reel": {
+    "axis": "horizontal",
+    "bar_count": 6,
+    "degrees_per_frame": 5,
+    "degrees_per_cycle": 120,
+    "full_turn_seconds": 3.6,
+    "loop_symmetry_degrees": 60,
+    "center_y": 94,
+    "radius_y": 38
+  },
+  "wheels": {
+    "centers": [
+      [
+        108,
+        226
+      ],
+      [
+        411,
+        225
+      ]
+    ],
+    "turn_seconds": 1.2,
+    "axles_fixed": true,
+    "method": "rubber tread scrolling with fixed rims and silhouette"
+  },
+  "reel_pixels_change": true
+}

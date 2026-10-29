@@ -1,0 +1,229 @@
+{
+  "status": "art_parts_and_approximate_landmarks_not_validated_rig",
+  "coordinate_system": "pixel top-left; normalized points bottom-left",
+  "parts": [
+    {
+      "file": "textures/cat_head.png",
+      "size": [
+        604,
+        451
+      ],
+      "suggested_points": {
+        "neck": {
+          "pixel_top_left": [
+            305,
+            399
+          ],
+          "normalized_bottom_left": [
+            0.5049668874172185,
+            0.11529933481152999
+          ]
+        }
+      }
+    },
+    {
+      "file": "textures/cat_torso.png",
+      "size": [
+        705,
+        560
+      ],
+      "suggested_points": {
+        "hips": {
+          "pixel_top_left": [
+            352,
+            465
+          ],
+          "normalized_bottom_left": [
+            0.49929078014184397,
+            0.1696428571428571
+          ]
+        },
+        "neck": {
+          "pixel_top_left": [
+            362,
+            50
+          ],
+          "normalized_bottom_left": [
+            0.5134751773049645,
+            0.9107142857142857
+          ]
+        },
+        "right_shoulder": {
+          "pixel_top_left": [
+            602,
+            130
+          ],
+          "normalized_bottom_left": [
+            0.8539007092198582,
+            0.7678571428571428
+          ]
+        },
+        "left_shoulder": {
+          "pixel_top_left": [
+            107,
+            130
+          ],
+          "normalized_bottom_left": [
+            0.15177304964539007,
+            0.7678571428571428
+          ]
+        }
+      }
+    },
+    {
+      "file": "textures/right_upper_arm.png",
+      "size": [
+        553,
+        265
+      ],
+      "suggested_points": {
+        "shoulder": {
+          "pixel_top_left": [
+            91,
+            135
+          ],
+          "normalized_bottom_left": [
+            0.16455696202531644,
+            0.49056603773584906
+          ]
+        },
+        "elbow": {
+          "pixel_top_left": [
+            471,
+            135
+          ],
+          "normalized_bottom_left": [
+            0.8517179023508138,
+            0.49056603773584906
+          ]
+        }
+      }
+    },
+    {
+      "file": "textures/right_forearm.png",
+      "size": [
+        496,
+        232
+      ],
+      "suggested_points": {
+        "elbow": {
+          "pixel_top_left": [
+            77,
+            117
+          ],
+          "normalized_bottom_left": [
+            0.15524193548387097,
+            0.4956896551724138
+          ]
+        },
+        "wrist": {
+          "pixel_top_left": [
+            422,
+            117
+          ],
+          "normalized_bottom_left": [
+            0.8508064516129032,
+            0.4956896551724138
+          ]
+        }
+      }
+    },
+    {
+      "file": "textures/sickle_inward.png",
+      "size": [
+        554,
+        919
+      ],
+      "suggested_points": {
+        "grip": {
+          "pixel_top_left": [
+            227,
+            622
+          ],
+          "normalized_bottom_left": [
+            0.40974729241877256,
+            0.32317736670293795
+          ]
+        },
+        "blade_contact": {
+          "pixel_top_left": [
+            287,
+            117
+          ],
+          "normalized_bottom_left": [
+            0.5180505415162455,
+            0.8726877040261154
+          ]
+        }
+      }
+    },
+    {
+      "file": "textures/right_grip_paw.png",
+      "size": [
+        506,
+        360
+      ],
+      "suggested_points": {
+        "wrist": {
+          "pixel_top_left": [
+            60,
+            209
+          ],
+          "normalized_bottom_left": [
+            0.11857707509881422,
+            0.4194444444444444
+          ]
+        },
+        "grip": {
+          "pixel_top_left": [
+            365,
+            164
+          ],
+          "normalized_bottom_left": [
+            0.7213438735177866,
+            0.5444444444444445
+          ]
+        }
+      }
+    },
+    {
+      "file": "textures/right_arm_reach.png",
+      "size": [
+        808,
+        575
+      ],
+      "suggested_points": {
+        "shoulder": {
+          "pixel_top_left": [
+            674,
+            396
+          ],
+          "normalized_bottom_left": [
+            0.8341584158415841,
+            0.31130434782608696
+          ]
+        },
+        "wrist": {
+          "pixel_top_left": [
+            184,
+            181
+          ],
+          "normalized_bottom_left": [
+            0.22772277227722773,
+            0.6852173913043478
+          ]
+        },
+        "grip": {
+          "pixel_top_left": [
+            124,
+            101
+          ],
+          "normalized_bottom_left": [
+            0.15346534653465346,
+            0.8243478260869566
+          ]
+        }
+      }
+    }
+  ]
+}

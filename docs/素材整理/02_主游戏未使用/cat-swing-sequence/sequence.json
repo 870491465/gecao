@@ -1,0 +1,6 @@
+{
+  "schemaVersion": 1,
+  "status": "MISSING_APPROVED_FRAMES",
+  "note": "No complete approved swing sequence exists in the supplied packages. Keep clips empty until art review. sequence.example.json is documentation only and is never auto-enabled.",
+  "clips": []
+}

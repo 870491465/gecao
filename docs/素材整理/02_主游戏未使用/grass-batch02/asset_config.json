@@ -1,0 +1,144 @@
+{
+  "version": 1,
+  "crop_assets": [
+    {
+      "file": "grass_mature_A.png",
+      "size": [
+        512,
+        512
+      ],
+      "anchor_top_left_px": [
+        256,
+        480
+      ],
+      "anchor_bottom_left": [
+        0.5,
+        0.0625
+      ],
+      "visual_root_width_px": 243,
+      "pair": "A",
+      "state": "mature"
+    },
+    {
+      "file": "grass_stubble_A.png",
+      "size": [
+        512,
+        512
+      ],
+      "anchor_top_left_px": [
+        256,
+        480
+      ],
+      "anchor_bottom_left": [
+        0.5,
+        0.0625
+      ],
+      "visual_root_width_px": 243,
+      "pair": "A",
+      "state": "stubble"
+    },
+    {
+      "file": "grass_mature_B.png",
+      "size": [
+        512,
+        512
+      ],
+      "anchor_top_left_px": [
+        256,
+        480
+      ],
+      "anchor_bottom_left": [
+        0.5,
+        0.0625
+      ],
+      "visual_root_width_px": 239,
+      "pair": "B",
+      "state": "mature"
+    },
+    {
+      "file": "grass_stubble_B.png",
+      "size": [
+        512,
+        512
+      ],
+      "anchor_top_left_px": [
+        256,
+        480
+      ],
+      "anchor_bottom_left": [
+        0.5,
+        0.0625
+      ],
+      "visual_root_width_px": 239,
+      "pair": "B",
+      "state": "stubble"
+    },
+    {
+      "file": "grass_mature_C.png",
+      "size": [
+        512,
+        512
+      ],
+      "anchor_top_left_px": [
+        256,
+        480
+      ],
+      "anchor_bottom_left": [
+        0.5,
+        0.0625
+      ],
+      "visual_root_width_px": 287,
+      "pair": "C",
+      "state": "mature"
+    },
+    {
+      "file": "grass_stubble_C.png",
+      "size": [
+        512,
+        512
+      ],
+      "anchor_top_left_px": [
+        256,
+        480
+      ],
+      "anchor_bottom_left": [
+        0.5,
+        0.0625
+      ],
+      "visual_root_width_px": 287,
+      "pair": "C",
+      "state": "stubble"
+    }
+  ],
+  "ground": {
+    "full_size": [
+      768,
+      1536
+    ],
+    "split_x": [
+      0,
+      208,
+      560,
+      768
+    ],
+    "repeat_axis": "Y only",
+    "method": "original 768px tile followed by vertical reflection; exact boundary match, visible pattern symmetry possible",
+    "transition": "optional crop, use fade at its boundaries; preferred approach is leave crops absent on normal ground"
+  },
+  "test_layout": {
+    "reference_screen": [
+      540,
+      960
+    ],
+    "columns_x": [
+      205,
+      335
+    ],
+    "row_spacing": 54,
+    "crop_canvas_display_size": [
+      170,
+      170
+    ],
+    "note": "starting values, not engine-tested"
+  }
+}
