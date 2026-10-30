@@ -1,0 +1,4 @@
+const http=require('http'),fs=require('fs'),path=require('path');
+const root=path.resolve('build/web-mobile'),port=Number(process.env.PORT||8092);
+const types={'.html':'text/html','.js':'application/javascript','.json':'application/json','.css':'text/css','.wasm':'application/wasm','.wav':'audio/wav','.mp3':'audio/mpeg','.png':'image/png'};
+http.createServer((req,res)=>{const name=path.resolve(root,'.'+decodeURIComponent(req.url.split('?')[0]==='/'?'/index.html':req.url.split('?')[0]));if(!name.startsWith(root+path.sep)&&name!==root){res.writeHead(403).end();return;}fs.readFile(name,(err,data)=>{if(err){res.writeHead(404).end();return;}res.setHeader('Content-Type',types[path.extname(name)]||'application/octet-stream');res.setHeader('Cache-Control','no-store');res.end(data);});}).listen(port,'127.0.0.1',()=>console.log('Cocos Web build: http://127.0.0.1:'+port));

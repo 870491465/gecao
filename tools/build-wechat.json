@@ -1,0 +1,14 @@
+{
+  "name": "OrangeCatHarvest",
+  "platform": "wechatgame",
+  "debug": true,
+  "startScene": "febc2a03-7e0c-4dc6-a74f-5252b26625f6",
+  "outputName": "wechatgame",
+  "mainBundleCompressionType": "merge_dep",
+  "packages": {
+    "wechatgame": {
+      "appid": "touristappid",
+      "orientation": "portrait"
+    }
+  }
+}

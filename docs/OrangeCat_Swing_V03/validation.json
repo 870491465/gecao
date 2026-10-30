@@ -1,0 +1,35 @@
+{
+  "checks": [
+    {
+      "file": "textures/cat_head.png",
+      "rgba_and_alpha": true
+    },
+    {
+      "file": "textures/cat_torso.png",
+      "rgba_and_alpha": true
+    },
+    {
+      "file": "textures/right_upper_arm.png",
+      "rgba_and_alpha": true
+    },
+    {
+      "file": "textures/right_forearm.png",
+      "rgba_and_alpha": true
+    },
+    {
+      "file": "textures/sickle_inward.png",
+      "rgba_and_alpha": true
+    },
+    {
+      "file": "textures/right_grip_paw.png",
+      "rgba_and_alpha": true
+    },
+    {
+      "file": "textures/right_arm_reach.png",
+      "rgba_and_alpha": true
+    }
+  ],
+  "joint_coordinates": "manual suggested values",
+  "cocos_tested": false,
+  "swing_animation_tested": false
+}

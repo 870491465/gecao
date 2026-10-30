@@ -1,0 +1,82 @@
+CCEffect %{
+  techniques:
+  - passes:
+    - vert: sprite-vs:vert
+      frag: sprite-fs:frag
+      depthStencilState:
+        depthTest: false
+        depthWrite: false
+      blendState:
+        targets:
+        - blend: true
+          blendSrc: src_alpha
+          blendDst: one_minus_src_alpha
+          blendDstAlpha: one_minus_src_alpha
+      rasterizerState:
+        cullMode: none
+      properties:
+        headerMode: { value: [0, 0, 0, 0] }
+}%
+CCProgram sprite-vs %{
+  precision highp float;
+  #include <builtin/uniforms/cc-global>
+  #if USE_LOCAL
+    #include <builtin/uniforms/cc-local>
+  #endif
+  #if SAMPLE_FROM_RT
+    #include <common/common-define>
+  #endif
+  in vec3 a_position;
+  in vec2 a_texCoord;
+  in vec4 a_color;
+
+  out vec4 color;
+  out vec2 uv0;
+
+  vec4 vert () {
+    vec4 pos = vec4(a_position, 1);
+
+    #if USE_LOCAL
+      pos = cc_matWorld * pos;
+    #endif
+
+    #if USE_PIXEL_ALIGNMENT
+      pos = cc_matView * pos;
+      pos.xyz = floor(pos.xyz);
+      pos = cc_matProj * pos;
+    #else
+      pos = cc_matViewProj * pos;
+    #endif
+
+    uv0 = a_texCoord;
+    #if SAMPLE_FROM_RT
+      CC_HANDLE_RT_SAMPLE_FLIP(uv0);
+    #endif
+    color = a_color;
+
+    return pos;
+  }
+}%
+
+CCProgram sprite-fs %{
+  precision highp float;
+  #include <builtin/internal/embedded-alpha>
+  in vec4 color;
+  in vec2 uv0;
+  uniform HeaderRegion { vec4 headerMode; };
+  #pragma builtin(local)
+  layout(set = 2, binding = 12) uniform sampler2D cc_spriteTexture;
+  vec4 frag () {
+    vec2 p = uv0 * vec2(768.0, 640.0);
+    vec2 sampleUV = uv0;
+    if (headerMode.x < 0.5) {
+      // Preserve the original cab, cat, body and pipe at their exact coordinates.
+      if (p.y < 190.0 || (p.y < 252.0 && (p.x < 270.0 || p.x > 498.0))) return vec4(0.0);
+    } else {
+      if (p.y >= 252.0) return vec4(0.0);
+      // Extend the obscured horizontal bar behind the unchanged cab, without stretching its roof.
+      if (p.y >= 190.0 && p.x >= 270.0 && p.x <= 498.0) sampleUV.x = 235.0 / 768.0;
+    }
+    return CCSampleWithAlphaSeparated(cc_spriteTexture, sampleUV) * color;
+  }
+}%

@@ -1,0 +1,62 @@
+{
+  "equip_01_sickle": {
+    "size": [
+      512,
+      512
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  "equip_02_long_sickle": {
+    "size": [
+      512,
+      512
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  "equip_03_push_harvester": {
+    "size": [
+      512,
+      512
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  "equip_04_ride_harvester": {
+    "size": [
+      512,
+      512
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  "equip_05_combine": {
+    "size": [
+      512,
+      512
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  "tile_normal": {
+    "size": [
+      512,
+      512
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  }
+}

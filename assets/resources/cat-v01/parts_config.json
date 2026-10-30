@@ -1,0 +1,119 @@
+{
+  "status": "suggested_static_assembly_not_cocos_tested",
+  "units": "source image pixels; scale entire CatRoot to game size",
+  "root": "fixed ground midpoint between feet",
+  "parts": [
+    {
+      "name": "cat_body_feet",
+      "file": "textures/cat_body_feet.png",
+      "size_px": [
+        982,
+        1021
+      ],
+      "source_crop_xywh": [
+        0,
+        3,
+        982,
+        1021
+      ],
+      "pivot_px_top_left": [
+        508,
+        977
+      ],
+      "anchor_normalized_bottom_left": [
+        0.5173116089613035,
+        0.04309500489715967
+      ],
+      "position_from_feet_root_y_up": [
+        0,
+        0
+      ],
+      "local_scale": 1,
+      "draw_order_back_to_front": 2
+    },
+    {
+      "name": "cat_right_arm_sickle",
+      "file": "textures/cat_right_arm_sickle.png",
+      "size_px": [
+        571,
+        580
+      ],
+      "source_crop_xywh": [
+        913,
+        0,
+        571,
+        580
+      ],
+      "pivot_px_top_left": [
+        137,
+        480
+      ],
+      "anchor_normalized_bottom_left": [
+        0.23992994746059546,
+        0.1724137931034483
+      ],
+      "position_from_feet_root_y_up": [
+        302,
+        410
+      ],
+      "local_scale": 0.8,
+      "draw_order_back_to_front": 1
+    },
+    {
+      "name": "cat_left_arm",
+      "file": "textures/cat_left_arm.png",
+      "size_px": [
+        557,
+        311
+      ],
+      "source_crop_xywh": [
+        931,
+        465,
+        557,
+        311
+      ],
+      "pivot_px_top_left": [
+        389,
+        155
+      ],
+      "anchor_normalized_bottom_left": [
+        0.6983842010771992,
+        0.5016077170418006
+      ],
+      "position_from_feet_root_y_up": [
+        -278,
+        390
+      ],
+      "local_scale": 0.8,
+      "draw_order_back_to_front": 0
+    },
+    {
+      "name": "cat_tail",
+      "file": "textures/cat_tail.png",
+      "size_px": [
+        615,
+        357
+      ],
+      "source_crop_xywh": [
+        891,
+        667,
+        615,
+        357
+      ],
+      "pivot_px_top_left": [
+        469,
+        208
+      ],
+      "anchor_normalized_bottom_left": [
+        0.7626016260162601,
+        0.41736694677871145
+      ],
+      "position_from_feet_root_y_up": [
+        -8,
+        170
+      ],
+      "local_scale": 0.7,
+      "draw_order_back_to_front": 3
+    }
+  ]
+}

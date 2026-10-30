@@ -1,0 +1,1 @@
+No approved animation PNGs have been supplied. Do not place the rejected pose images here. See docs/Hybrid_Swing_Integration.md.

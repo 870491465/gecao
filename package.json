@@ -1,0 +1,16 @@
+{
+  "name": "橘猫割草2D",
+  "uuid": "bcd29a6b-535a-4393-b96a-339ccd0dfddb",
+  "creator": {
+    "version": "3.8.8"
+  },
+  "private": true,
+  "scripts": {
+    "check": "powershell -NoProfile -ExecutionPolicy Bypass -File tools/verify.ps1",
+    "build:web": "powershell -NoProfile -ExecutionPolicy Bypass -File tools/build.ps1 -Platform web-mobile",
+    "build:wechat": "powershell -NoProfile -ExecutionPolicy Bypass -File tools/build.ps1 -Platform wechatgame -Release",
+    "serve": "node tools/serve.cjs",
+    "assets:check": "python tools/pack-rice-atlas.py --check",
+    "assets:organize": "python tools/organize-assets.py"
+  }
+}

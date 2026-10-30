@@ -1,0 +1,188 @@
+{
+  "engine": "Cocos Creator",
+  "anchorConvention": "normalized bottom-left origin",
+  "assets": {
+    "rice_mature_01": {
+      "size": [
+        512,
+        640
+      ],
+      "anchor": [
+        0.5,
+        0.05
+      ],
+      "rootPixelFromTop": [
+        256.0,
+        608
+      ]
+    },
+    "rice_mature_02": {
+      "size": [
+        512,
+        640
+      ],
+      "anchor": [
+        0.5,
+        0.05
+      ],
+      "rootPixelFromTop": [
+        256.0,
+        608
+      ]
+    },
+    "rice_mature_03": {
+      "size": [
+        512,
+        640
+      ],
+      "anchor": [
+        0.5,
+        0.05
+      ],
+      "rootPixelFromTop": [
+        256.0,
+        608
+      ]
+    },
+    "rice_row_strip": {
+      "size": [
+        512,
+        1024
+      ],
+      "anchor": [
+        0.5,
+        0.03125
+      ],
+      "rootPixelFromTop": [
+        256.0,
+        992
+      ]
+    },
+    "rice_stubble": {
+      "size": [
+        512,
+        640
+      ],
+      "anchor": [
+        0.5,
+        0.05
+      ],
+      "rootPixelFromTop": [
+        256.0,
+        608
+      ]
+    },
+    "rice_grain_01": {
+      "size": [
+        128,
+        160
+      ],
+      "anchor": [
+        0.5,
+        0.2
+      ],
+      "rootPixelFromTop": [
+        64.0,
+        128
+      ]
+    },
+    "rice_grain_02": {
+      "size": [
+        128,
+        160
+      ],
+      "anchor": [
+        0.5,
+        0.2
+      ],
+      "rootPixelFromTop": [
+        64.0,
+        128
+      ]
+    },
+    "rice_grain_03": {
+      "size": [
+        128,
+        160
+      ],
+      "anchor": [
+        0.5,
+        0.2
+      ],
+      "rootPixelFromTop": [
+        64.0,
+        128
+      ]
+    },
+    "rice_grain_04": {
+      "size": [
+        128,
+        160
+      ],
+      "anchor": [
+        0.5,
+        0.2
+      ],
+      "rootPixelFromTop": [
+        64.0,
+        128
+      ]
+    },
+    "rice_grain_05": {
+      "size": [
+        128,
+        160
+      ],
+      "anchor": [
+        0.5,
+        0.2
+      ],
+      "rootPixelFromTop": [
+        64.0,
+        128
+      ]
+    },
+    "rice_leaf_01": {
+      "size": [
+        160,
+        192
+      ],
+      "anchor": [
+        0.5,
+        0.16666666666666666
+      ],
+      "rootPixelFromTop": [
+        80.0,
+        160
+      ]
+    },
+    "rice_leaf_02": {
+      "size": [
+        160,
+        192
+      ],
+      "anchor": [
+        0.5,
+        0.16666666666666666
+      ],
+      "rootPixelFromTop": [
+        80.0,
+        160
+      ]
+    },
+    "rice_leaf_03": {
+      "size": [
+        160,
+        192
+      ],
+      "anchor": [
+        0.5,
+        0.16666666666666666
+      ],
+      "rootPixelFromTop": [
+        80.0,
+        160
+      ]
+    }
+  }
+}

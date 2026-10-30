@@ -1,0 +1,55 @@
+{
+  "png_checks": [
+    {
+      "file": "textures/cat_body.png",
+      "size": [
+        780,
+        996
+      ],
+      "has_transparency": true
+    },
+    {
+      "file": "textures/cat_leg_left.png",
+      "size": [
+        321,
+        397
+      ],
+      "has_transparency": true
+    },
+    {
+      "file": "textures/cat_leg_right.png",
+      "size": [
+        336,
+        418
+      ],
+      "has_transparency": true
+    },
+    {
+      "file": "textures/cat_right_arm_sickle.png",
+      "size": [
+        571,
+        580
+      ],
+      "has_transparency": true
+    },
+    {
+      "file": "textures/cat_left_arm.png",
+      "size": [
+        557,
+        311
+      ],
+      "has_transparency": true
+    },
+    {
+      "file": "textures/cat_tail.png",
+      "size": [
+        615,
+        357
+      ],
+      "has_transparency": true
+    }
+  ],
+  "preview": "offline composited 24 frames at 50ms each",
+  "cocos_tested": false,
+  "map_sync_tested": false
+}

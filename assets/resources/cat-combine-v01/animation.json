@@ -1,0 +1,61 @@
+{
+  "frameSize": [
+    768,
+    640
+  ],
+  "frameCount": 24,
+  "fps": 20,
+  "duration": 1.2,
+  "loop": true,
+  "exhaustOrigin": [
+    498,
+    460
+  ],
+  "wheelRegions": [
+    [
+      "left_front",
+      250,
+      279,
+      266,
+      350,
+      254,
+      260
+    ],
+    [
+      "right_front",
+      502,
+      307,
+      515,
+      350,
+      506,
+      511
+    ],
+    [
+      "left_rear",
+      225,
+      365,
+      253,
+      489,
+      232,
+      245
+    ],
+    [
+      "right_rear",
+      516,
+      365,
+      541,
+      489,
+      521,
+      533
+    ]
+  ],
+  "reelAxis": {
+    "center": [
+      384,
+      180
+    ],
+    "radiusY": 62.5,
+    "bars": 6,
+    "degreesPerLoop": 120
+  }
+}

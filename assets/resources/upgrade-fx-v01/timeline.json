@@ -1,0 +1,31 @@
+{
+  "duration": 4.44,
+  "fxCanvas": [
+    512,
+    512
+  ],
+  "fxFps": 20,
+  "frameCount": 89,
+  "events": [
+    {
+      "time": 0,
+      "event": "play sound; gather gold particles"
+    },
+    {
+      "time": 0.58,
+      "event": "swap equipment during flash"
+    },
+    {
+      "time": 0.58,
+      "event": "new equipment scale bounce starts"
+    },
+    {
+      "time": 2.4,
+      "event": "second gold ring and star burst"
+    },
+    {
+      "time": 4.44,
+      "event": "remove FX; leave new equipment"
+    }
+  ]
+}

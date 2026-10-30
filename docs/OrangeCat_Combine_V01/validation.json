@@ -1,0 +1,18 @@
+{
+  "left_front": {
+    "minimumFrameChange": 7.362969483568075,
+    "averageFrameChange": 8.518901604068857
+  },
+  "right_front": {
+    "minimumFrameChange": 1.751937984496124,
+    "averageFrameChange": 2.4837507453786523
+  },
+  "left_rear": {
+    "minimumFrameChange": 18.542530721966205,
+    "averageFrameChange": 20.58990975422427
+  },
+  "right_rear": {
+    "minimumFrameChange": 14.945483870967742,
+    "averageFrameChange": 16.57390681003584
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "scope": "equipment_UI_only",
+  "canvas": [
+    512,
+    512
+  ],
+  "anchor": [
+    0.5,
+    0.5
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "icon": "textures/equip_01_sickle.png",
+      "grayIcon": "textures/equip_01_sickle_gray.png"
+    },
+    {
+      "level": 2,
+      "icon": "textures/equip_02_long_sickle.png",
+      "grayIcon": "textures/equip_02_long_sickle_gray.png"
+    },
+    {
+      "level": 3,
+      "icon": "textures/equip_03_push_harvester.png",
+      "grayIcon": "textures/equip_03_push_harvester_gray.png"
+    },
+    {
+      "level": 4,
+      "icon": "textures/equip_04_ride_harvester.png",
+      "grayIcon": "textures/equip_04_ride_harvester_gray.png"
+    },
+    {
+      "level": 5,
+      "icon": "textures/equip_05_combine.png",
+      "grayIcon": "textures/equip_05_combine_gray.png"
+    }
+  ],
+  "logicalLayout": {
+    "screenWidth": 375,
+    "tile": 44,
+    "gap": 8,
+    "rowWidth": 252,
+    "buttonGap": 14
+  },
+  "states": {
+    "locked": "gray icon + lock",
+    "unlocked": "color icon",
+    "current": "color icon + selection_border + active_dot"
+  }
+}

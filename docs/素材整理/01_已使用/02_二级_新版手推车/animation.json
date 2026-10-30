@@ -9,8 +9,8 @@
   "loop": true,
   "singleSprite": true,
   "wheelChecks": {
-    "left": 20.6951316352086,
-    "right": 20.74935098650052
+    "left": 20.03396249465518,
+    "right": 20.018042575285566
   },
   "cuttingSpan": [
     138,

@@ -1,0 +1,18 @@
+{
+  "left_front": {
+    "meanPixelChange": 27.092,
+    "changedPixels": 3833
+  },
+  "right_front": {
+    "meanPixelChange": 24.075,
+    "changedPixels": 2860
+  },
+  "left_rear": {
+    "meanPixelChange": 26.229,
+    "changedPixels": 13432
+  },
+  "right_rear": {
+    "meanPixelChange": 22.444,
+    "changedPixels": 5193
+  }
+}

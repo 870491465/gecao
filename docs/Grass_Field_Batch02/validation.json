@@ -1,0 +1,120 @@
+{
+  "assets": [
+    {
+      "file": "fx_leaf.png",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "alpha_valid": true
+    },
+    {
+      "file": "fx_stem.png",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "alpha_valid": true
+    },
+    {
+      "file": "grass_mature_A.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_valid": true
+    },
+    {
+      "file": "grass_mature_B.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_valid": true
+    },
+    {
+      "file": "grass_mature_C.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_valid": true
+    },
+    {
+      "file": "grass_stubble_A.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_valid": true
+    },
+    {
+      "file": "grass_stubble_B.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_valid": true
+    },
+    {
+      "file": "grass_stubble_C.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_valid": true
+    },
+    {
+      "file": "ground_left_edge.png",
+      "size": [
+        208,
+        1536
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "ground_right_edge.png",
+      "size": [
+        208,
+        1536
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "ground_scroll.png",
+      "size": [
+        768,
+        1536
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "ground_soil.png",
+      "size": [
+        352,
+        1536
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "transition_empty_band.png",
+      "size": [
+        768,
+        160
+      ],
+      "mode": "RGB"
+    }
+  ],
+  "ground_top_bottom_equal": true,
+  "ground_internal_mirror_join_equal": true,
+  "per_stem_matching": false,
+  "cocos_tested": false
+}

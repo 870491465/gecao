@@ -1,0 +1,6 @@
+const fs=require('fs');
+const id='9abcc380-afc5-46dd-b0c2-817d22c9d941',sceneId='f8a7937e-6da3-43a5-8206-57251ab0ced6';
+const b='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';function classId(id){const h=id.replace(/-/g,'');return h.slice(0,5)+h.slice(5).replace(/.{3}/g,t=>{const n=parseInt(t,16);return b[n>>6]+b[n&63];});}
+if(!fs.existsSync('assets/scripts/CatPartsLab.ts.meta'))fs.writeFileSync('assets/scripts/CatPartsLab.ts.meta',JSON.stringify({ver:'4.0.24',importer:'typescript',imported:true,uuid:id,files:[],subMetas:{},userData:{}},null,2));
+if(!fs.existsSync('assets/scenes/CatPartsLab.scene')){const a=JSON.parse(fs.readFileSync('assets/scenes/ScytheLab.scene','utf8'));a[0]._name='CatPartsLab';a[1]._name='CatPartsLab';const i=a.findIndex(x=>x.__type__==='31a29EVkOpOuZFfkJ30ySXV');a[i]={__type__:classId(id),_name:'',_objFlags:0,node:{__id__:2},_enabled:true,__prefab:null,_id:sceneId};fs.writeFileSync('assets/scenes/CatPartsLab.scene',JSON.stringify(a,null,2));fs.writeFileSync('assets/scenes/CatPartsLab.scene.meta',JSON.stringify({ver:'1.1.50',importer:'scene',imported:true,uuid:sceneId,files:[],subMetas:{},userData:{}},null,2));}
+console.log('CatPartsLab.scene created.');
