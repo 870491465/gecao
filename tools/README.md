@@ -10,6 +10,7 @@
 | `node tools/serve.cjs` | 本地 Web 预览，默认端口 8092，可设置 `PORT` |
 | `python tools/organize-assets.py` | 更新素材分类副本及 SHA-256 清单 |
 | `python tools/pack-rice-atlas.py --check` | 检查水稻图集与源图逐像素一致 |
+| `node tools/capture-previews.cjs` | 从 Web 调试构建生成六级截图和升级 GIF 到 `docs/previews/`；需要 FFmpeg（可设置 `FFMPEG_EXECUTABLE`） |
 
 浏览器检查需要 Playwright 和 Chromium。可设置 `PLAYWRIGHT_MODULE`（包路径）、`CHROMIUM_EXECUTABLE`（浏览器路径）和 `HARVEST_TEST_URL`。多数脚本默认端口为 8092 或 8093；`test-rice-smoothness.cjs` 和 `profile-rice.cjs` 当前使用 8093。
 

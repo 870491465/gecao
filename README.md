@@ -4,6 +4,24 @@ Cocos Creator **3.8.8** 竖屏 2D 自动收割游戏。设计分辨率 720 × 12
 
 点击开始后自动收割、换垄和进入下一轮；金币足够时，点击角色头顶的道具气泡升级。正常界面没有暂停按钮，打开设置继续收割，切回前台自动继续。进度保存在本地，不计算离线收益。
 
+## 游戏预览
+
+以下为当前版本的实际运行画面，从手动挥镰刀逐步升级到全屏收割水稻。
+
+| ① 小镰刀 | ② 手推收割机 | ③ 骑乘收割车 |
+| :---: | :---: | :---: |
+| <img src="docs/previews/level-1.png" alt="一级：橘猫挥镰刀割草" width="220"> | <img src="docs/previews/level-2.png" alt="二级：手推割草机收割两垄草" width="220"> | <img src="docs/previews/level-3.png" alt="三级：橘猫驾驶骑乘收割车" width="220"> |
+
+| ④ 联合收割机 | ⑤ 全屏联合收割机 | ⑥ 水稻联合收割机 |
+| :---: | :---: | :---: |
+| <img src="docs/previews/level-4.png" alt="四级：联合收割机与喷口碎草效果" width="220"> | <img src="docs/previews/level-5.png" alt="五级：保持车身大小并加宽滚筒" width="220"> | <img src="docs/previews/level-6.png" alt="六级：全屏收割成熟水稻" width="220"> |
+
+### 升级动效
+
+三级骑乘收割车升级为四级联合收割机的实际过程：
+
+<img src="docs/previews/upgrade.gif" alt="升级闪光、换装与继续收割动效" width="300">
+
 ## 运行
 
 1. 用 Cocos Creator 3.8.8 打开项目，等待资源导入。

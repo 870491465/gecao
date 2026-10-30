@@ -85,7 +85,7 @@ def unused_reason(name):
     return '当前 Main.scene 主游戏资源加载路径未引用'
 
 # Original package inventory excludes verification screenshots and the new export.
-source_dirs = sorted(p for p in (ROOT / 'docs').iterdir() if p.is_dir() and p.name not in ['verification', OUT.name])
+source_dirs = sorted(p for p in (ROOT / 'docs').iterdir() if p.is_dir() and p.name not in ['verification', 'previews', OUT.name])
 source_files = sorted(p for folder in source_dirs for p in folder.rglob('*') if p.is_file())
 source_files += sorted(p for p in (ROOT / 'docs').iterdir() if p.is_file() and p.name not in ['wechat-qr.png', 'wechat_qr.png'] and p.suffix.lower() in ['.png', '.jpg', '.jpeg', '.gif', '.mp3', '.wav', '.mp4', '.zip'])
 originals = defaultdict(list)
